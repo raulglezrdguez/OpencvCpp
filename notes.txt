@@ -1,0 +1,9 @@
+chapter2: basic functions
+chapter3: resize and crop
+chapter4: draw shapes and text
+chapter5: warp images
+chapter6: color detection
+chapter7: shape and contour detection
+chapter8: face detection using haarcascade
+project1: virtual drawing 
+ 

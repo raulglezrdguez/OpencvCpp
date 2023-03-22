@@ -1,0 +1,3 @@
+/Users/raul/projects/opencv/simple_demo/build/CMakeFiles/simple-demo.dir
+/Users/raul/projects/opencv/simple_demo/build/CMakeFiles/edit_cache.dir
+/Users/raul/projects/opencv/simple_demo/build/CMakeFiles/rebuild_cache.dir
