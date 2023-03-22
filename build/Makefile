@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/raul/projects/opencv/simple_demo
+CMAKE_SOURCE_DIR = /Users/raul/projects/opencv/OpencvCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/raul/projects/opencv/simple_demo/build
+CMAKE_BINARY_DIR = /Users/raul/projects/opencv/OpencvCpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/raul/projects/opencv/simple_demo/build/CMakeFiles /Users/raul/projects/opencv/simple_demo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/raul/projects/opencv/OpencvCpp/build/CMakeFiles /Users/raul/projects/opencv/OpencvCpp/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/raul/projects/opencv/simple_demo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/raul/projects/opencv/OpencvCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named simple-demo
+# Target rules for targets named OpencvCpp
 
 # Build rule for target.
-simple-demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple-demo
-.PHONY : simple-demo
+OpencvCpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OpencvCpp
+.PHONY : OpencvCpp
 
 # fast build rule for target.
-simple-demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-demo.dir/build.make CMakeFiles/simple-demo.dir/build
-.PHONY : simple-demo/fast
+OpencvCpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpencvCpp.dir/build.make CMakeFiles/OpencvCpp.dir/build
+.PHONY : OpencvCpp/fast
 
-project1.o: project1.cpp.o
-.PHONY : project1.o
+chapter8.o: chapter8.cpp.o
+.PHONY : chapter8.o
 
 # target to build an object file
-project1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-demo.dir/build.make CMakeFiles/simple-demo.dir/project1.cpp.o
-.PHONY : project1.cpp.o
+chapter8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpencvCpp.dir/build.make CMakeFiles/OpencvCpp.dir/chapter8.cpp.o
+.PHONY : chapter8.cpp.o
 
-project1.i: project1.cpp.i
-.PHONY : project1.i
+chapter8.i: chapter8.cpp.i
+.PHONY : chapter8.i
 
 # target to preprocess a source file
-project1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-demo.dir/build.make CMakeFiles/simple-demo.dir/project1.cpp.i
-.PHONY : project1.cpp.i
+chapter8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpencvCpp.dir/build.make CMakeFiles/OpencvCpp.dir/chapter8.cpp.i
+.PHONY : chapter8.cpp.i
 
-project1.s: project1.cpp.s
-.PHONY : project1.s
+chapter8.s: chapter8.cpp.s
+.PHONY : chapter8.s
 
 # target to generate assembly for a file
-project1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-demo.dir/build.make CMakeFiles/simple-demo.dir/project1.cpp.s
-.PHONY : project1.cpp.s
+chapter8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpencvCpp.dir/build.make CMakeFiles/OpencvCpp.dir/chapter8.cpp.s
+.PHONY : chapter8.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... simple-demo"
-	@echo "... project1.o"
-	@echo "... project1.i"
-	@echo "... project1.s"
+	@echo "... OpencvCpp"
+	@echo "... chapter8.o"
+	@echo "... chapter8.i"
+	@echo "... chapter8.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/raul/projects/opencv/simple_demo
+# Install script for directory: /Users/raul/projects/opencv/OpencvCpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/raul/projects/opencv/simple_demo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/raul/projects/opencv/OpencvCpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

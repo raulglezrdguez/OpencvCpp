@@ -1,5 +1,5 @@
-CMakeFiles/simple-demo.dir/chapter3.cpp.o: \
-  /Users/raul/projects/opencv/simple_demo/chapter3.cpp \
+CMakeFiles/OpencvCpp.dir/chapter8.cpp.o: \
+  /Users/raul/projects/opencv/OpencvCpp/chapter8.cpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/imgcodecs.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/core.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/core/cvdef.h \
@@ -458,4 +458,11 @@ CMakeFiles/simple-demo.dir/chapter3.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/videoio.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/imgproc.hpp \
   /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/./imgproc/segmentation.hpp \
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/objdetect.hpp \
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/objdetect/face.hpp \
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream

@@ -1,8 +1,8 @@
 [
 {
-  "directory": "/Users/raul/projects/opencv/simple_demo/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -o CMakeFiles/simple-demo.dir/project1.cpp.o -c /Users/raul/projects/opencv/simple_demo/project1.cpp",
-  "file": "/Users/raul/projects/opencv/simple_demo/project1.cpp",
-  "output": "CMakeFiles/simple-demo.dir/project1.cpp.o"
+  "directory": "/Users/raul/projects/opencv/OpencvCpp/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/opencv/4.7.0_2/include/opencv4 -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -o CMakeFiles/OpencvCpp.dir/chapter8.cpp.o -c /Users/raul/projects/opencv/OpencvCpp/chapter8.cpp",
+  "file": "/Users/raul/projects/opencv/OpencvCpp/chapter8.cpp",
+  "output": "CMakeFiles/OpencvCpp.dir/chapter8.cpp.o"
 }
 ]

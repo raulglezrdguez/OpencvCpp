@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION "3.17")
 
 # name of this example project
-project(simple-demo)
+project(OpencvCpp)
 
 # set OpenCV_DIR variable equal to the path to the cmake
 # files within the previously installed opencv program
@@ -24,7 +24,7 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
 # specify the executable target to be built
-add_executable(simple-demo chapter8.cpp)
+add_executable(OpencvCpp chapter8.cpp)
 
 # tell it to link the executable target against OpenCV
-target_link_libraries(simple-demo ${OpenCV_LIBS} )
+target_link_libraries(OpencvCpp ${OpenCV_LIBS} )

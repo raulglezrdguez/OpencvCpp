@@ -32,7 +32,7 @@ int main()
         cap.read(img);
 
         // detect faces
-        faceCascade.detectMultiScale(img, faces, 1.5, 10);
+        faceCascade.detectMultiScale(img, faces, 1.1, 3);
 
         // draw faces
         for (int i = 0; i < faces.size(); i++)
